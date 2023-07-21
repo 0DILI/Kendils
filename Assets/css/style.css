@@ -155,10 +155,15 @@ table {
     font-size: var(--small-font-size);
 }
 
-.flex {
-    display: flex;
-    align-items: center;
-    column-gap: .5rem;
+.form_inputs {
+    border: 1px solid var(--border-color-alt);
+    padding-top: 1rem;
+    padding-inline: 1rem;
+    height: 200px;
+}
+
+.form_container{
+    max-width: 500px;
 }
 
 .new_price {
@@ -184,6 +189,7 @@ table {
 .text_area {
     height: 200px;
     padding-block: 2rem;
+    resize: none;
 }
 
 /*=============== HEADER & NAV ===============*/
@@ -385,6 +391,12 @@ background-position: center;
 .btn-sm {
     height: 40px;
     line-height: 36px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    column-gap: .5rem;
 }
 
 /*=============== CATEGORIES ===============*/
@@ -1201,14 +1213,171 @@ background-image: url(../img/deals-2.png);
 .review_form-title {
     font-size: var(--large-font-size);
     margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .rate_product {
     margin-bottom: 2rem;
 }
 
+/*=============== CART ===============*/
+/* .table_container {
+    overflow-x: auto;
+} */
 
+/* .table {
+    table-layout: fixed;
+    margin-bottom: 2rem;
+} */
 
+.table tr {
+    border: 1px solid var(--border-color-alt);
+}
+
+.table tr:last-child {
+    border-bottom: 1px solid var(--border-color-alt);
+}
+
+.table tr th:nth-child(1),
+.table tr td:nth-child(1) {
+    width: 216px;
+}
+
+.table tr th:nth-child(2),
+.table tr td:nth-child(2) {
+    width: 400px;
+}
+
+.table tr th:nth-child(3),
+.table tr td:nth-child(3) {
+    width: 108px;
+}
+
+.table tr th:nth-child(4),
+.table tr td:nth-child(4) {
+    width: 220px;
+}
+
+.table tr th:nth-child(5),
+.table tr td:nth-child(5) {
+    width: 200px;
+}
+
+.table tr th:nth-child(6),
+.table tr td:nth-child(6) {
+    width: 152px;
+}
+
+.table_img {
+    width: 80px;
+}
+
+.table tr th,
+.table tr td {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.table_title,
+.table_description,
+.table_price,
+.table_subtotal,
+.table_trash {
+    font-size: var(--small-font-size);
+}
+
+.table_title {
+    color: var(--first-color);
+}
+
+.table_description {
+    max-width: 250px;
+    margin-inline: auto;
+}
+
+.table_trash {
+    color: var(--text-color-light);
+}
+
+.cart_actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+}
+
+.divider {
+    position: relative;
+    text-align: center;
+    margin-block: 3rem;
+}
+
+.divider::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    border-top: 2px solid var(--border-color-alt);
+}
+
+.divider i {
+    color: var(--text-color-light);
+    background: var(--body-color);
+    font-size: 1.25rem;
+    padding-inline: 1.25rem;
+    position: relative;
+    z-index: 10;
+}
+
+.cart_group {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: flex-start;
+}
+
+.cart_section .section_title,
+.cart_coupon .section_title,
+.cart_total .section_title {
+    font-size: var(--large-font-size);
+    margin-bottom: 1rem;
+}
+
+.cart_coupon {
+    margin-top: 3rem;
+}
+
+.coupon_form .form_group {
+    align-items: center;
+}
+
+.cart_total {
+    border: 1px solid var(--border-color-alt);
+    border-radius: 0.25rem;
+    padding: 1.75rem;
+}
+
+.cart_total-table {
+    margin-bottom: 1rem;
+}
+
+.cart_total-table tr td {
+    border: 1px solid var(--border-color-alt);
+    padding: 0.75rem 0.5rem;
+    width: 50%;
+}
+
+.cart_total-title {
+    font-size: var(--small-font-size);
+}
+
+.cart_total-price {
+    color: var(--first-color);
+    font-weight: var(--weight-700);
+}
+
+.cart_total .btn {
+    display: inline-flex;
+}
     
 
 
