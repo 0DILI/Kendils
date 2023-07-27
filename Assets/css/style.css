@@ -1552,6 +1552,81 @@ color: var(--first-color);
     display: none;
 }
 
+/*=============== CART OTHERS ===============*/
+
+/*=============== WISHLIST ===============*/
+
+/*=============== CHECKOUT ===============*/
+.checkout_container {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.checkout_group:nth-child(2) {
+    border: 1px solid var(--border-color-alt);
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+.checkout_group .section_title {
+    font-size: var(--large-font-size);
+}
+
+.checkout_title1 {
+    font-size: var(--large-font-size);
+    padding-bottom: 2rem;
+}
+
+.checkout_title {
+    font-size: var(--small-font-size);
+}
+
+.order_table tr th,
+.order_table tr td {
+    border: 1px solid var(--border-color-alt);
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.order_table tr th {
+    color: var(--title-color);
+    font-size: var(--small-font-size);
+}
+
+.order_img {
+    width: 80px;
+}
+
+.table_quantity,
+.order_subtitle {
+    font-size: var(--small-font-size);
+}
+
+.order_grand-total {
+    color: var(--first-color);
+    font-size: var(--large-font-size);
+    font-weight: var(--weight-700);
+}
+
+.payment_methods {
+    margin-block: 2.5rem 2.75rem;
+}
+
+.payment_title {
+    margin-bottom: 1.5rem;
+}
+
+.payment_option {
+    margin-bottom: 1.5rem;
+}
+
+.payment_input {
+    accent-color: var(--first-color);
+}
+
+.payment_label {
+    font-size: var(--small-font-size);
+}
+
 /*=============== LOGIN & REGISTER ===============*/
 .login-register_container {
     grid-template-columns: repeat(2, 1fr);
