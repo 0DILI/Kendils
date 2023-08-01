@@ -1483,8 +1483,8 @@ background-image: url(../img/deals-2.png);
 }
 
 .header2 .menu > ul > li .single-column-menu {
-    min-width: 280px;
-    max-width: 350px;
+    min-width: 200px;
+    max-width: 300px;
 }
 
 .header2 .menu > ul > li .sub-menu.mega-menu > .list-item > ul > li {
@@ -1509,7 +1509,7 @@ background-image: url(../img/deals-2.png);
 /* controls the width of the mega menu contents */
 .header2 .menu > ul > li .sub-menu.mega-menu-column-4 {
     max-width: 1100px;
-    width: 30%;
+    width: 33%;
     display: flex;
     flex-wrap: wrap;
     padding: 20px 15px;
@@ -1523,7 +1523,7 @@ background-image: url(../img/deals-2.png);
 .header2 .menu > ul > li .sub-menu.mega-menu-column-4 > .list-item .title {
     font-size: 16px;
     color: var(--second-color);
-    font-weight: var(--weight-500);
+    font-weight: var(--weight-700);
     line-height: 1;
     padding: 10px 0;
     text-decoration: underline;
