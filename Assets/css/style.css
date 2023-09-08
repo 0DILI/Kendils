@@ -363,6 +363,23 @@ background-position: center;
     justify-self: flex-end;
 }
 
+/* Wedding Home */
+.pinkbg_container1 {
+    display: flex;
+    column-gap: 20px;
+}
+
+.pinkbg_container2 {
+    display: flex;
+    column-gap: 20px;
+    margin-top: 13px;
+}
+
+.where {
+    width: 100%;
+    margin-left: 3px;
+}
+
 /*=============== BUTTONS ===============*/
 .btn {
     display: inline-block;
